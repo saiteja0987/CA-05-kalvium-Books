@@ -1,0 +1,65 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.inputBox {
+  width: 490px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  color: #eb6c6c;
+  padding-left: 10px;
+}
+
+.inputBox:focus {
+  border-color: #eb6c6c;
+  box-shadow: 0px 0px 8px #eb6c6c;
+}
+
+.page {
+  background-color: rgb(0, 0, 0);
+  padding: 0;
+  height: 100vh;
+  margin-top: 0px;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  margin-top: 0px;
+  padding-top: 10%;
+  color: white;
+  margin-left: 500px;
+}
+
+#registerButton {
+  margin-right: 30px;
+  margin-top: 10px;
+  background-color: #ef1f1f; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+#homeButton {
+  display: flex;
+  position: relative;
+  margin-top: 10px;
+ 
+}
